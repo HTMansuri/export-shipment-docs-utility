@@ -12,7 +12,7 @@
     "build": "npm run typecheck && npm run build --workspace web",
     "start": "tsx src/server.ts",
     "labels": "tsx src/cli.ts",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test tests/api.test.ts tests/labels.test.ts",
     "typecheck": "tsc --noEmit && npm run typecheck --workspace web",
     "sample": "tsx scripts/create-sample.ts"
   },
