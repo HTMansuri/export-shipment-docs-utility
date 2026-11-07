@@ -1,0 +1,15 @@
+node_modules/
+web/node_modules/
+web/dist/
+dist/
+coverage/
+output/
+examples/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+*.xlsx
+*.xls
+*.pdf
